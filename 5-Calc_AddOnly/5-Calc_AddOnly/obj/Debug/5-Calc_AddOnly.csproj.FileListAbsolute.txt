@@ -1,0 +1,7 @@
+C:\Users\sbeuk\source\repos\StephanBeuker\UEbungskurs-EinstiegInC-\5-Calc_AddOnly\5-Calc_AddOnly\bin\Debug\5-Calc_AddOnly.exe.config
+C:\Users\sbeuk\source\repos\StephanBeuker\UEbungskurs-EinstiegInC-\5-Calc_AddOnly\5-Calc_AddOnly\bin\Debug\5-Calc_AddOnly.exe
+C:\Users\sbeuk\source\repos\StephanBeuker\UEbungskurs-EinstiegInC-\5-Calc_AddOnly\5-Calc_AddOnly\bin\Debug\5-Calc_AddOnly.pdb
+C:\Users\sbeuk\source\repos\StephanBeuker\UEbungskurs-EinstiegInC-\5-Calc_AddOnly\5-Calc_AddOnly\obj\Debug\5-Calc_AddOnly.csprojAssemblyReference.cache
+C:\Users\sbeuk\source\repos\StephanBeuker\UEbungskurs-EinstiegInC-\5-Calc_AddOnly\5-Calc_AddOnly\obj\Debug\5-Calc_AddOnly.csproj.CoreCompileInputs.cache
+C:\Users\sbeuk\source\repos\StephanBeuker\UEbungskurs-EinstiegInC-\5-Calc_AddOnly\5-Calc_AddOnly\obj\Debug\5-Calc_AddOnly.exe
+C:\Users\sbeuk\source\repos\StephanBeuker\UEbungskurs-EinstiegInC-\5-Calc_AddOnly\5-Calc_AddOnly\obj\Debug\5-Calc_AddOnly.pdb

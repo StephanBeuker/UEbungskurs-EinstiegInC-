@@ -1,0 +1,6 @@
+C:\Users\sbeuk\source\repos\StephanBeuker\UEbungskurs-EinstiegInC-\Jan_Übung3\Jan_Übung3\bin\Debug\Jan_Übung3.exe.config
+C:\Users\sbeuk\source\repos\StephanBeuker\UEbungskurs-EinstiegInC-\Jan_Übung3\Jan_Übung3\bin\Debug\Jan_Übung3.exe
+C:\Users\sbeuk\source\repos\StephanBeuker\UEbungskurs-EinstiegInC-\Jan_Übung3\Jan_Übung3\bin\Debug\Jan_Übung3.pdb
+C:\Users\sbeuk\source\repos\StephanBeuker\UEbungskurs-EinstiegInC-\Jan_Übung3\Jan_Übung3\obj\Debug\Jan_Übung3.csproj.CoreCompileInputs.cache
+C:\Users\sbeuk\source\repos\StephanBeuker\UEbungskurs-EinstiegInC-\Jan_Übung3\Jan_Übung3\obj\Debug\Jan_Übung3.exe
+C:\Users\sbeuk\source\repos\StephanBeuker\UEbungskurs-EinstiegInC-\Jan_Übung3\Jan_Übung3\obj\Debug\Jan_Übung3.pdb
