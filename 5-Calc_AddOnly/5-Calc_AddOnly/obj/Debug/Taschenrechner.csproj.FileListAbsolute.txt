@@ -1,0 +1,7 @@
+C:\Users\sbeuk\Source\Repos\StephanBeuker\UEbungskurs-EinstiegInC-\5-Calc_AddOnly\5-Calc_AddOnly\bin\Debug\Taschenrechner.exe.config
+C:\Users\sbeuk\Source\Repos\StephanBeuker\UEbungskurs-EinstiegInC-\5-Calc_AddOnly\5-Calc_AddOnly\bin\Debug\Taschenrechner.exe
+C:\Users\sbeuk\Source\Repos\StephanBeuker\UEbungskurs-EinstiegInC-\5-Calc_AddOnly\5-Calc_AddOnly\bin\Debug\Taschenrechner.pdb
+C:\Users\sbeuk\Source\Repos\StephanBeuker\UEbungskurs-EinstiegInC-\5-Calc_AddOnly\5-Calc_AddOnly\obj\Debug\Taschenrechner.csprojAssemblyReference.cache
+C:\Users\sbeuk\Source\Repos\StephanBeuker\UEbungskurs-EinstiegInC-\5-Calc_AddOnly\5-Calc_AddOnly\obj\Debug\Taschenrechner.csproj.CoreCompileInputs.cache
+C:\Users\sbeuk\Source\Repos\StephanBeuker\UEbungskurs-EinstiegInC-\5-Calc_AddOnly\5-Calc_AddOnly\obj\Debug\Taschenrechner.exe
+C:\Users\sbeuk\Source\Repos\StephanBeuker\UEbungskurs-EinstiegInC-\5-Calc_AddOnly\5-Calc_AddOnly\obj\Debug\Taschenrechner.pdb
