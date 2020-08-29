@@ -12,15 +12,15 @@ namespace _5_Calc_AddOnly
         {
             //Parsing
             Console.WriteLine("Bitte gib den ersten Summanden: ");
-            double ersterSummand = double.Parse(Console.ReadLine());
+            float ersterSummand = float.Parse(Console.ReadLine());
 
             //Wandel Text in Gleitkommazahl
             Console.WriteLine("Bitte gib den zweiten Summanden: ");
             string zweiterSummand = Console.ReadLine();
-            double zweiterSummandAlsZahl = Convert.ToDouble(zweiterSummand);     
+            float zweiterSummandAlsZahl = Convert.ToSingle(zweiterSummand);     //ToSingle->Float ?!?
 
             //Berechnung
-            double summe = ersterSummand + zweiterSummandAlsZahl;
+            float summe = ersterSummand + zweiterSummandAlsZahl;
             
             //Ausgabe
             Console.WriteLine("Die Summe ist: {0}", summe);
