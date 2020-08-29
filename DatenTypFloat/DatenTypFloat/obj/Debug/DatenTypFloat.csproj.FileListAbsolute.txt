@@ -1,0 +1,7 @@
+C:\Users\sbeuk\source\repos\StephanBeuker\UEbungskurs-EinstiegInC-\DatenTypFloat\DatenTypFloat\bin\Debug\DatenTypFloat.exe.config
+C:\Users\sbeuk\source\repos\StephanBeuker\UEbungskurs-EinstiegInC-\DatenTypFloat\DatenTypFloat\bin\Debug\DatenTypFloat.exe
+C:\Users\sbeuk\source\repos\StephanBeuker\UEbungskurs-EinstiegInC-\DatenTypFloat\DatenTypFloat\bin\Debug\DatenTypFloat.pdb
+C:\Users\sbeuk\source\repos\StephanBeuker\UEbungskurs-EinstiegInC-\DatenTypFloat\DatenTypFloat\obj\Debug\DatenTypFloat.csprojAssemblyReference.cache
+C:\Users\sbeuk\source\repos\StephanBeuker\UEbungskurs-EinstiegInC-\DatenTypFloat\DatenTypFloat\obj\Debug\DatenTypFloat.csproj.CoreCompileInputs.cache
+C:\Users\sbeuk\source\repos\StephanBeuker\UEbungskurs-EinstiegInC-\DatenTypFloat\DatenTypFloat\obj\Debug\DatenTypFloat.exe
+C:\Users\sbeuk\source\repos\StephanBeuker\UEbungskurs-EinstiegInC-\DatenTypFloat\DatenTypFloat\obj\Debug\DatenTypFloat.pdb
