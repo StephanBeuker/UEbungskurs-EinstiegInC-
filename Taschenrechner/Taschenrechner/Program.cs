@@ -12,21 +12,32 @@ namespace Taschenrechner
         {
             //Parsing
             Console.WriteLine("Bitte gib den ersten Summanden: ");
-            float ersterSummand = float.Parse(Console.ReadLine());
+            double ersterSummand = double.Parse(Console.ReadLine());
 
             //Wandel Text in Gleitkommazahl
             Console.WriteLine("Bitte gib den zweiten Summanden: ");
             string zweiterSummand = Console.ReadLine();
-            float zweiterSummandAlsZahl = Convert.ToSingle(zweiterSummand);     //ToSingle->Float ?!?
+            double zweiterSummandAlsZahl = Convert.ToDouble(zweiterSummand);     
 
             //Berechnung
-            float summe = ersterSummand + zweiterSummandAlsZahl;
+            double summe = Addiere(ersterSummand, zweiterSummandAlsZahl);
             
             //Ausgabe
             Console.WriteLine("Die Summe ist: {0}", summe);
 
-            Console.ReadKey();
-
+            WarteAufBenutzerEinagabe();
         }   
+        static double Addiere(double a, double b)
+        {
+            return a + b;
+        }
+
+
+        static void WarteAufBenutzerEinagabe()
+        {
+            Console.WriteLine();
+            Console.WriteLine("\t >>> Zum beenden bitte return drücken <<<");
+            Console.ReadLine();
+        }
     }
 }

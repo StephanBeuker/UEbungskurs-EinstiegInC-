@@ -11,3 +11,4 @@ C:\Users\sbeuk\source\repos\StephanBeuker\UEbungskurs-EinstiegInC-\Taschenrechne
 C:\Users\sbeuk\source\repos\StephanBeuker\UEbungskurs-EinstiegInC-\Taschenrechner\Taschenrechner\obj\Debug\Taschenrechner.csproj.CoreCompileInputs.cache
 C:\Users\sbeuk\source\repos\StephanBeuker\UEbungskurs-EinstiegInC-\Taschenrechner\Taschenrechner\obj\Debug\Taschenrechner.exe
 C:\Users\sbeuk\source\repos\StephanBeuker\UEbungskurs-EinstiegInC-\Taschenrechner\Taschenrechner\obj\Debug\Taschenrechner.pdb
+C:\Users\sbeuk\source\repos\StephanBeuker\UEbungskurs-EinstiegInC-\Taschenrechner\Taschenrechner\obj\Debug\Taschenrechner.csprojAssemblyReference.cache
