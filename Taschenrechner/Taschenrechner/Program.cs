@@ -10,40 +10,40 @@ namespace Taschenrechner
     {
         static void Main(string[] args)
         {
-            //  EingabeMethode
-            string ersterSummand = HoleSummanden("Bitte gib den ersten Summanden ein: ");
-            string zweiterSummand = HoleSummanden("Bitte gib den zweiten Summanden ein: ");
+            // EingabeMethode
+            string ersteEingabe = HoleBenutzerEingabe("Bitte gib die erste Zahl ein: ");
+            string zweiteEingabe = HoleBenutzerEingabe("Bitte gib die zweite Zahl ein: ");
 
-            //Wandel Text in Gleitkommazahl
-            double ersterSummandAlsZahl = Convert.ToDouble(ersterSummand);
-            double zweiterSummandAlsZahl = Convert.ToDouble(zweiterSummand);     
+            // Wandel Text in Gleitkommazahl
+            // TODO: Auslagern in Methode, wenn Struktur umfangreicher geworden ist.
+            double ersteEinagabeAlsZahl = Convert.ToDouble(ersteEingabe);
+            double zweiteEingabeAlsZahl = Convert.ToDouble(zweiteEingabe);     
 
-            //Berechnung
-            double summe = Addiere(ersterSummandAlsZahl, zweiterSummandAlsZahl);
+            // Berechnung
+            double summe = Addiere(ersteEinagabeAlsZahl, zweiteEingabeAlsZahl);
             
-            //Ausgabe
+            // Ausgabe
             Console.WriteLine("Die Summe ist: {0}", summe);
 
-            WarteAufBenutzerEinagabe();
+            HoleBenutzerEingabe("\n\t >>> Zum beenden bitte return drücken <<<\n");
         }   
-        static string HoleSummanden(string ausgabetext)
+        static string HoleBenutzerEingabe(string ausgabetext)
         {
             Console.WriteLine(ausgabetext);
             string eingabe = Console.ReadLine();
             return eingabe;
         }
 
+        static double Subtrahiere(double a, double b)
+        {
+            return a - b;
+        }
+
+
         static double Addiere(double a, double b)
         {
             return a + b;
         }
 
-
-        static void WarteAufBenutzerEinagabe()
-        {
-            Console.WriteLine();
-            Console.WriteLine("\t >>> Zum beenden bitte return drücken <<<");
-            Console.ReadLine();
-        }
     }
 }
