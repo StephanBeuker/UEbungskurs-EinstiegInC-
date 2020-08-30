@@ -23,38 +23,39 @@ namespace Taschenrechner
 
             // Berechnung
             double result = 0;
-            if (operation == "+")
+            switch (operation)
             {
-                 result = Addiere(ersteEinagabeAlsZahl, zweiteEingabeAlsZahl);
-                Console.WriteLine("Die Summe ist: {0}", result);
-            }
-            else if (operation == "-")
-            {
-                 result = Subtrahiere(ersteEinagabeAlsZahl, zweiteEingabeAlsZahl);
-                Console.WriteLine("Die Differenz ist: {0}", result);
-            }
-            else
-            {
-                Console.WriteLine("falsche Eingabe.");
+                case "+":
+                    result = Addiere(ersteEinagabeAlsZahl, zweiteEingabeAlsZahl);
+                    Console.WriteLine("Die Summe ist: {0}", result);
+                    break;
+                case "-":
+                    result = Subtrahiere(ersteEinagabeAlsZahl, zweiteEingabeAlsZahl);
+                    Console.WriteLine("Die Differenz ist: {0}", result);
+                    break;
+                case "*":
+                case "/":
+                    Console.WriteLine("Diese Operation befindet sich zur Zeit noch in Bearbeitung. Bitte haben Sie noch etwas Geduld. Vielen Dank.");
+                    break;
+                default:
+                    Console.WriteLine("falsche Eingabe.");
+                    break;
             }
 
             // Ausgabe
-            
             HoleBenutzerEingabe("\n\t >>> Zum beenden bitte return drücken <<<\n");
         }    
+        // Methoden
         static string HoleBenutzerEingabe(string ausgabetext)
         {
             Console.WriteLine(ausgabetext);
             string eingabe = Console.ReadLine();
             return eingabe;
         }
-
         static double Subtrahiere(double a, double b)
         {
             return a - b;
         }
-
-
         static double Addiere(double a, double b)
         {
             return a + b;
