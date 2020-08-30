@@ -1,4 +1,5 @@
 ﻿using System; //Bibliothek
+using System.CodeDom;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,20 +14,34 @@ namespace Taschenrechner
             // EingabeMethode
             string ersteEingabe = HoleBenutzerEingabe("Bitte gib die erste Zahl ein: ");
             string zweiteEingabe = HoleBenutzerEingabe("Bitte gib die zweite Zahl ein: ");
+            string operation = HoleBenutzerEingabe("Bitte gib die auszuführende Operation ein (+ oder -):");
 
             // Wandel Text in Gleitkommazahl
             // TODO: Auslagern in Methode, wenn Struktur umfangreicher geworden ist.
             double ersteEinagabeAlsZahl = Convert.ToDouble(ersteEingabe);
-            double zweiteEingabeAlsZahl = Convert.ToDouble(zweiteEingabe);     
+            double zweiteEingabeAlsZahl = Convert.ToDouble(zweiteEingabe);
 
             // Berechnung
-            double summe = Addiere(ersteEinagabeAlsZahl, zweiteEingabeAlsZahl);
-            
-            // Ausgabe
-            Console.WriteLine("Die Summe ist: {0}", summe);
+            double result = 0;
+            if (operation == "+")
+            {
+                 result = Addiere(ersteEinagabeAlsZahl, zweiteEingabeAlsZahl);
+                Console.WriteLine("Die Summe ist: {0}", result);
+            }
+            else if (operation == "-")
+            {
+                 result = Subtrahiere(ersteEinagabeAlsZahl, zweiteEingabeAlsZahl);
+                Console.WriteLine("Die Differenz ist: {0}", result);
+            }
+            else
+            {
+                Console.WriteLine("falsche Eingabe.");
+            }
 
+            // Ausgabe
+            
             HoleBenutzerEingabe("\n\t >>> Zum beenden bitte return drücken <<<\n");
-        }   
+        }    
         static string HoleBenutzerEingabe(string ausgabetext)
         {
             Console.WriteLine(ausgabetext);
