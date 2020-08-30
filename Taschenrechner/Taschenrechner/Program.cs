@@ -5,28 +5,34 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Taschenrechner
-{   //UserStory "Addieren":Als Benutzer möchte ich zwei Zahlen eingeben, um deren Summe berechnen zu lassen.
+{   
     class Program
     {
         static void Main(string[] args)
         {
-            //Parsing
-            Console.WriteLine("Bitte gib den ersten Summanden: ");
-            double ersterSummand = double.Parse(Console.ReadLine());
+            //  EingabeMethode
+            string ersterSummand = HoleSummanden("Bitte gib den ersten Summanden ein: ");
+            string zweiterSummand = HoleSummanden("Bitte gib den zweiten Summanden ein: ");
 
             //Wandel Text in Gleitkommazahl
-            Console.WriteLine("Bitte gib den zweiten Summanden: ");
-            string zweiterSummand = Console.ReadLine();
+            double ersterSummandAlsZahl = Convert.ToDouble(ersterSummand);
             double zweiterSummandAlsZahl = Convert.ToDouble(zweiterSummand);     
 
             //Berechnung
-            double summe = Addiere(ersterSummand, zweiterSummandAlsZahl);
+            double summe = Addiere(ersterSummandAlsZahl, zweiterSummandAlsZahl);
             
             //Ausgabe
             Console.WriteLine("Die Summe ist: {0}", summe);
 
             WarteAufBenutzerEinagabe();
         }   
+        static string HoleSummanden(string ausgabetext)
+        {
+            Console.WriteLine(ausgabetext);
+            string eingabe = Console.ReadLine();
+            return eingabe;
+        }
+
         static double Addiere(double a, double b)
         {
             return a + b;
