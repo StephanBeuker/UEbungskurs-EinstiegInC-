@@ -1,0 +1,7 @@
+C:\Users\sbeuk\source\repos\StephanBeuker\UEbungskurs-EinstiegInC-\Klassendefinieren\Klassendefinieren\bin\Debug\Klassendefinieren.exe.config
+C:\Users\sbeuk\source\repos\StephanBeuker\UEbungskurs-EinstiegInC-\Klassendefinieren\Klassendefinieren\bin\Debug\Klassendefinieren.exe
+C:\Users\sbeuk\source\repos\StephanBeuker\UEbungskurs-EinstiegInC-\Klassendefinieren\Klassendefinieren\bin\Debug\Klassendefinieren.pdb
+C:\Users\sbeuk\source\repos\StephanBeuker\UEbungskurs-EinstiegInC-\Klassendefinieren\Klassendefinieren\obj\Debug\Klassendefinieren.csprojAssemblyReference.cache
+C:\Users\sbeuk\source\repos\StephanBeuker\UEbungskurs-EinstiegInC-\Klassendefinieren\Klassendefinieren\obj\Debug\Klassendefinieren.csproj.CoreCompileInputs.cache
+C:\Users\sbeuk\source\repos\StephanBeuker\UEbungskurs-EinstiegInC-\Klassendefinieren\Klassendefinieren\obj\Debug\Klassendefinieren.exe
+C:\Users\sbeuk\source\repos\StephanBeuker\UEbungskurs-EinstiegInC-\Klassendefinieren\Klassendefinieren\obj\Debug\Klassendefinieren.pdb

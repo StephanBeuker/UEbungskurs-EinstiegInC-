@@ -29,7 +29,7 @@ namespace Taschenrechner
             HoleBenutzerEingabe("\n\t >>> Zum beenden bitte return drücken <<<\n");
         }    
         // Methoden
-         static double Berechnung(double a, double b, string _operation)
+        static double Berechnung(double a, double b, string _operation)
         {
             double resultat = 0;
             switch (_operation)
