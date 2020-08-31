@@ -30,9 +30,9 @@ namespace Taschenrechner
             Console.Write("\n\t >>> Zum beenden bitte return drücken <<<\n");
             Console.ReadLine();
         }
-        public void GibResultatAus(string _operation)
+        public void GibResultatAus()
         {
-            switch (_operation)
+            switch (model.Operation)
             {
                 case "+":
                     Console.WriteLine("Die Sumnme ist: {0}", model.Resultat);
