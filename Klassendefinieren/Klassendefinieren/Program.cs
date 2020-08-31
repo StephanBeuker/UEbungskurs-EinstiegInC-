@@ -1,34 +1,25 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.AccessControl;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Klassendefinieren
+namespace KlassenDefinieren
 {
-    
     class Program
     {
         static void Main(string[] args)
         {
-            Auto meinAuto = new Auto();
-            Auto deinAuto = new Auto();
+            Auto meinAuto = new Auto("Audi");
+            Auto deinAuto = new Auto("Porsche");
 
-            meinAuto.alterInJahren = 13;
-            meinAuto.marke = "Audi";
-            meinAuto.AktuelleGeschwindigkeit(73);
-            
+            meinAuto.AlterInJahren = 13;
+            deinAuto.AlterInJahren = 1;
 
-            deinAuto.alterInJahren = 1;
-            deinAuto.marke = "Porsche";
-
-            meinAuto.AktuelleGeschwindigkeit(100);
+            Console.WriteLine("Mein Auto fährt aktuell {0} km/h.", meinAuto.SagAktuelleGeschwindigkeit());
+            Console.WriteLine("Dein Auto fährt aktuell {0} km/h.", deinAuto.SagAktuelleGeschwindigkeit());
             meinAuto.BeschleunigeAuf100KmH();
             deinAuto.BeschleunigeAuf100KmH();
+            Console.WriteLine("Mein Auto fährt aktuell {0} km/h.", meinAuto.SagAktuelleGeschwindigkeit());
+            Console.WriteLine("Dein Auto fährt aktuell {0} km/h.", deinAuto.SagAktuelleGeschwindigkeit());
 
-            meinAuto.Beenden();
+            Console.ReadLine();
         }
     }
 }
- 

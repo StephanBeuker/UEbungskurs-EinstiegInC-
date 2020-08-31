@@ -1,49 +1,65 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Klassendefinieren
+namespace KlassenDefinieren
 {
     public class Auto
     {
-        // Attribute
-        public string marke;
-        public int alterInJahren;
         private int aktuelleGeschwindigkeit;
 
-        
+        public Auto(string autoMarke)
+        {
+            Marke = autoMarke;
+            AlterInJahren = 0;
+            aktuelleGeschwindigkeit = 0;
+        }
 
-        // Methoden
+        private string marke;
+
+        public string Marke
+        {
+            get { return marke; }
+            set
+            {
+                if (value == "Porsche")
+                {
+                    marke = value;
+                }
+                else
+                {
+                    marke = "Nicht unterstützt!";
+                }
+            }
+        }
+
+        public int AlterInJahren { get; set; }
+
         public void BeschleunigeAuf100KmH()
         {
             aktuelleGeschwindigkeit = 100;
+
             if (IstSchnell())
             {
-                Console.WriteLine("Habe schnell beschleunigt!");
+                Console.WriteLine("Der {0} hat schnell beschleunigt! Yeah!", Marke);
             }
             else
             {
-                Console.WriteLine("Habe normal beschleunigt!");
+                Console.WriteLine("Der {0} hat normal beschleunigt!", Marke);
             }
         }
-        public int AktuelleGeschwindigkeit(int a)
+
+        public int SagAktuelleGeschwindigkeit()
         {
             return aktuelleGeschwindigkeit;
         }
+
         private bool IstSchnell()
         {
-            if (marke == "Porsche")
+            if (Marke == "Porsche")
             {
                 return true;
             }
+
             return false;
-        }
-        public void Beenden()
-        {
-            Console.WriteLine("\n\t\t >>>Press Enter to close window<<<");
-            Console.ReadLine();
         }
     }
 }
