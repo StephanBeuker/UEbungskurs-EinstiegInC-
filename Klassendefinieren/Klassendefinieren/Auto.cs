@@ -15,6 +15,7 @@ namespace KlassenDefinieren
 
         private string marke;
 
+
         public string Marke
         {
             get { return marke; }
