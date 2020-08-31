@@ -22,33 +22,14 @@ namespace Taschenrechner
             double zweiteEingabeAlsZahl = Convert.ToDouble(zweiteEingabe);
 
             // Berechnung
-            double resultat = Berechnung(ersteEinagabeAlsZahl, zweiteEingabeAlsZahl, operation);
+            RechnerModel model = new RechnerModel();
+            double resultat = model.Berechne(ersteEinagabeAlsZahl, zweiteEingabeAlsZahl, operation);
 
             // Ausgabe
             GibResultatAus(resultat, operation);
             HoleBenutzerEingabe("\n\t >>> Zum beenden bitte return drücken <<<\n");
-        }    
-        // Methoden
-        static double Berechnung(double a, double b, string _operation)
-        {
-            double resultat = 0;
-            switch (_operation)
-            {
-                case "+": 
-                    resultat = Addiere(a, b);
-                    break;
-                case "-":
-                    resultat = Subtrahiere(a, b);
-                    break;
-                case "*":
-                    resultat = Multipliziere(a, b);
-                    break;
-                case "/":
-                    resultat = Dividiere(a, b);
-                    break;
-            }
-            return resultat;
         }
+        // Methoden
         static void GibResultatAus(double resultat, string _operation)
         {
             switch (_operation)
@@ -69,29 +50,13 @@ namespace Taschenrechner
                     Console.WriteLine("Ungütige Eingabe");
                     break;
             }
-            
+
         }
         static string HoleBenutzerEingabe(string ausgabetext)
         {
             Console.WriteLine(ausgabetext);
             string eingabe = Console.ReadLine();
             return eingabe;
-        }
-        static double Subtrahiere(double a, double b)
-        {
-            return a - b;
-        }
-        static double Addiere(double a, double b)
-        {
-            return a + b;
-        }
-        static double Multipliziere(double a, double b)
-        {
-            return a * b;
-        }
-        static double Dividiere(double a, double b)
-        {
-            return a / b;
         }
 
     }

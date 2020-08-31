@@ -2,11 +2,29 @@ User Stories Taschenrechner
 
 User Story Vorlage: Als <Rolle/Anwendertyp> möchte ich <Ziel /Wunsch/ Funktion>, um <Nutzen>.
 
+Titel:	Fortlaufende BErechnung
+Story:	Als Benuter möchte ich eine weitere Zahl eingeben, um die vorherige Operation nochmals auszuführen mit dem vorherigen Resultat
+Akzeptanzkriterien:
+	* Gleitkommazahlen zwischen -10,0 und 100,0 können eingegeben werden
+	* Die Opperation aus der vorherigen Berechung wird nochmnals verwendet
+	*Das neue Resultat wird ausgegeben ohne weitere Interaktion mit dem Benutzer 
+Status:
+	*Offen
+
+Titel:	Objektorientierung
+Story:	Als Entwickler möchte ich die Anwendung objektorientiert entwickeln, um später einfach weitere Fuktionalitäten hinzufügen zu können
+Akzeptanzkriterien:
+	* Die Aufteilung der Funktionalitäten aus KLassen folgt dem Prizip "Separation of Concerns" (SoC)
+	*Bei der Erstellung von Klassen und Methoden wird das Prizip "Don´t repeat yourself" (DRY) eingehalten
+Hinweis:
+	*Diese Story ist eine Erweiterung zu Story "Softwarestruktur"
+Status:
+	*Offen
+
 Titel:	Softwarestruktur
 Story:	Als Entwickler möchte ich den Quelklcode sauber strukturieren, um später einfach weitere Fuktionalitäten hinzufügen zu können
 Akzeptanzkriterien:
 	* Das "Single Level of Abstraction Prizip" wird eingehalten, oder eine Abweichung ist begründet und dokumentiert
-
 Status:
 	*Umgesetzt
 	*Erledigt
