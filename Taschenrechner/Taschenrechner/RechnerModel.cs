@@ -8,25 +8,29 @@ namespace Taschenrechner
 {
     class RechnerModel
     {
-        public double Berechne(double a, double b, string _operation)
+        public double Resultat { get; private set; }
+        public RechnerModel()
         {
-            double resultat = 0;
+            Resultat = 0;
+        }
+        public void Berechne(double a, double b, string _operation)
+        {
+            
             switch (_operation)
             {
                 case "+":
-                    resultat = Addiere(a, b);
+                    Resultat = Addiere(a, b);
                     break;
                 case "-":
-                    resultat = Subtrahiere(a, b);
+                    Resultat = Subtrahiere(a, b);
                     break;
                 case "*":
-                    resultat = Multipliziere(a, b);
+                    Resultat = Multipliziere(a, b);
                     break;
                 case "/":
-                    resultat = Dividiere(a, b);
+                    Resultat = Dividiere(a, b);
                     break;
             }
-            return resultat;
         }
         
         private double Subtrahiere(double a, double b)
